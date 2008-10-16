@@ -56,4 +56,11 @@
 #	import "NSObject+iPhoneHacks.h"
 #endif
 
+#ifndef ARLog(...)
+	#define ARLog(...)
+#endif
+#ifndef ARDebugLog(...)
+	#define ARDebugLog(...)
+#endif
+
 #endif /* _ACTIVERECORD_H_ */
